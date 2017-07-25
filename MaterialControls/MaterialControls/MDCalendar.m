@@ -49,8 +49,6 @@
 @property(weak, nonatomic) UICollectionView *collectionView;
 @property(weak, nonatomic) UICollectionViewFlowLayout *collectionViewFlowLayout;
 
-@property(copy, nonatomic) NSDate *maximumDate;
-
 @property(nonatomic) MDCalendarCellStyle cellStyle;
 
 @property(weak, nonatomic) MDCalendarYearSelector *yearSelector;
